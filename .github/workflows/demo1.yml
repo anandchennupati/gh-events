@@ -3,14 +3,14 @@ on:
   pull_request:
     types:
       - opened
-    branches:
-      - dev
-      - test
-      - uat
+    #branches:
+    #  - dev
+    #  - test
+    #  - uat
   workflow_dispatch:    
-  push: 
-    branches:
-      - main # main
+  #push: 
+  # branches:
+  #    - main # main
      # - dev # dev-new dev-this-is-new
       #- 'feat/**'
     #paths-ignore:
