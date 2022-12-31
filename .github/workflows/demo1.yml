@@ -1,17 +1,17 @@
-name: Events Demo 1
+name: EventsDemo
 on: 
   pull_request:
     types:
       - opened
-    branches:
-      - main # main
-      #- 'dev-*' # dev-new dev-this-is-new
-      #- 'feat/**'  
+    #branches:
+    #  - dev
+    #  - test
+    #  - uat
   workflow_dispatch:    
   push: 
     branches:
       - main # main
-      #- dev # dev-new dev-this-is-new
+     # - dev # dev-new dev-this-is-new
       #- 'feat/**'
     #paths-ignore:
     #  - '.github/workflows/*'  
