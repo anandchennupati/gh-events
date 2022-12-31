@@ -8,9 +8,9 @@ on:
     #  - test
     #  - uat
   workflow_dispatch:    
-  #push: 
-  # branches:
-  #    - main # main
+  push: 
+    branches:
+      - main # main
      # - dev # dev-new dev-this-is-new
       #- 'feat/**'
     #paths-ignore:
