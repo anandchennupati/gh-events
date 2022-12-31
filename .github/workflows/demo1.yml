@@ -1,12 +1,12 @@
-name: Events Demo 1
+name: EventsDemo
 on: 
   pull_request:
     types:
       - opened
     branches:
-     - dev
-     - test
-     - uat
+      - dev
+      - test
+      - uat
   workflow_dispatch:    
   push: 
     branches:
