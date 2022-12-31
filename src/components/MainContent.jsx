@@ -8,7 +8,8 @@ function MainContent() {
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
   }
-
+ // My tests
+ //add yet another commit
   return (
     <main>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
